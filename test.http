@@ -1,0 +1,26 @@
+### GET ALL USERS
+GET http://localhost:5000/api/users
+
+### CREATE USER
+POST http://localhost:5000/api/users
+Content-Type: application/json
+
+{
+  "name": "Amatt",
+  "email": "amtprstya@gmail.com"
+}
+
+### GET USER BY ID
+GET http://localhost:5000/api/users/1
+
+### UPDATE USER
+PUT http://localhost:5000/api/users/1
+Content-Type: application/json
+
+{
+  "name": "Ravi Ahmad Prasetya",
+  "email": "rapiamtprstya@gmail.com"
+}
+
+### DELETE USER
+DELETE http://localhost:5000/api/users/1
